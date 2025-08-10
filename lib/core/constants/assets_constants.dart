@@ -1,7 +1,8 @@
 const generalPath = "assets/images";
 const meImagePath = '$generalPath/me.jpg';
+// const meImagePath = '$generalPath/me1.png';
 const logoImagePath = '$generalPath/AS_logo.png';
-const bgImagePath = '$generalPath/bg.jpg';
+const bgImagePath = '$generalPath/bg.png';
 
 // Social Media Images
 const linkedInImagePath = '$generalPath/linkedin.png';

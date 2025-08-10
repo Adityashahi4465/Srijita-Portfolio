@@ -80,15 +80,15 @@ class _HomePageState extends State<HomePage> {
                   height: MediaQuery.of(context).size.height * 1.5,
                 ),
                 // Purple Color Blend
-                Container(
-                  width: double.infinity,
-                  height: MediaQuery.of(context).size.height * 1.5,
-                  color: Color(
-                    getColorHexFromStr(
-                      "#0A115C",
-                    ),
-                  ).withOpacity(0.5),
-                ),
+                // Container(
+                //   width: double.infinity,
+                //   height: MediaQuery.of(context).size.height * 1.5,
+                //   color: Color(
+                //     getColorHexFromStr(
+                //       "#0A115C",
+                //     ),
+                //   ).withOpacity(0.5),
+                // ),
                 Column(
                   children: [
                     NavBar(

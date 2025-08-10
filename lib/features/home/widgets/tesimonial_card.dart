@@ -1,5 +1,5 @@
-import 'package:aditya_portfolio/core/constants/assets_constants.dart';
-import 'package:aditya_portfolio/core/utils/responsive.dart';
+import '../../../core/constants/assets_constants.dart';
+import '../../../core/utils/responsive.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 
@@ -21,14 +21,14 @@ class TestimonialCard extends StatelessWidget {
             )
           : null,
       decoration: BoxDecoration(
-        color: AppColors.purpleCardColor,
+        color: AppColors.darkCardColor,
         border: Border(
           top: BorderSide(
-            color: AppColors.lightPurpleCardColor,
+            color: AppColors.lightBrownColorCardColor,
             width: 2.0,
           ),
           bottom: BorderSide(
-            color: AppColors.lightPurpleCardColor,
+            color: AppColors.lightBrownColorCardColor,
             width: 2.0,
           ),
         ),

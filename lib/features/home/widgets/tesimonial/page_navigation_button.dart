@@ -44,7 +44,7 @@ class PageNavigationButton extends StatelessWidget {
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
                         shape: BoxShape.circle,
-                        color: AppColors.brightBorderColor,
+                        color: AppColors.red,
                       ),
                       child: Icon(
                         icon,

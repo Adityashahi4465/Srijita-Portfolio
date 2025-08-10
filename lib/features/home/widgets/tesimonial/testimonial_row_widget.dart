@@ -1,4 +1,4 @@
-import 'package:aditya_portfolio/core/utils/responsive.dart';
+import '../../../../core/utils/responsive.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -52,14 +52,14 @@ class TestimonialsRow extends StatelessWidget {
         if (ResponsiveLayout.isLargeScreen(context))
           Container(
             decoration: BoxDecoration(
-              color: AppColors.lightPurpleCardColor,
+              color: AppColors.lightBrownColorCardColor,
               border: Border(
                 top: BorderSide(
-                  color: AppColors.lightPurpleCardColor,
+                  color: AppColors.lightBrownBorderColorCardColor,
                   width: 2.0,
                 ),
                 bottom: BorderSide(
-                  color: AppColors.lightPurpleCardColor,
+                  color: AppColors.lightBrownBorderColorCardColor,
                   width: 2.0,
                 ),
               ),
@@ -74,14 +74,14 @@ class TestimonialsRow extends StatelessWidget {
           ),
         Container(
           decoration: BoxDecoration(
-            color: AppColors.purpleCardColor,
+            color: AppColors.darkCardColor,
             border: Border(
               top: BorderSide(
-                color: AppColors.lightPurpleCardColor,
+                color: AppColors.lightBrownBorderColorCardColor,
                 width: 2.0,
               ),
               bottom: BorderSide(
-                color: AppColors.lightPurpleCardColor,
+                color: AppColors.lightBrownBorderColorCardColor,
                 width: 2.0,
               ),
             ),

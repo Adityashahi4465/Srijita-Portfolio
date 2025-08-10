@@ -5,18 +5,18 @@ import '../core/utils/color.dart';
 class AppColors {
   static Color primary = Color(
     getColorHexFromStr(
-      "#050546",
+      "#111111",
     ),
   );
   static Color primaryDark = Color(
     getColorHexFromStr(
-      "#0A115C",
+      "#222222",
     ),
   );
 
   static Color primaryLightDark = Color(
     getColorHexFromStr(
-      "#08084E",
+      "#171717",
     ),
   );
   static Color darkPurple = Color(
@@ -24,14 +24,19 @@ class AppColors {
       "#181764",
     ),
   );
-  static Color purpleCardColor = Color(
+  static Color darkCardColor = Color(
     getColorHexFromStr(
-      "#111051",
+      "#151515",
     ),
   );
-  static Color lightPurpleCardColor = Color(
+  static Color lightBrownColorCardColor = Color(
     getColorHexFromStr(
-      "#242069",
+      "#272727",
+    ),
+  );
+  static Color lightBrownBorderColorCardColor = Color(
+    getColorHexFromStr(
+      "#2F2F2F",
     ),
   );
   static Color primaryLight = Color(
@@ -41,17 +46,17 @@ class AppColors {
   );
   static Color brightBorderColor = Color(
     getColorHexFromStr(
-      "#5362E9",
+      "#FFFFFF",
     ),
   );
   static Color footerColor = Color(
     getColorHexFromStr(
-      "#121151",
+      "#111111",
     ),
   );
   static Color footerColor2 = Color(
     getColorHexFromStr(
-      "#0D0C4C",
+      "#0C0C0C",
     ),
   );
   static Color red = Color(
