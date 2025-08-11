@@ -241,7 +241,7 @@ class _ContactPageState extends ConsumerState<ContactPage> {
                             height: 22,
                           ),
                           ContactMethodCard(
-                            contactDetail: '+91 99*** ***59',
+                            contactDetail: '+91 70*** ***79',
                             contactType: 'Official Phone',
                             contactIcon: Icons.phone_outlined,
                             size: size,
@@ -412,7 +412,7 @@ class _ContactPageState extends ConsumerState<ContactPage> {
                             height: 22,
                           ),
                           ContactMethodCard(
-                            contactDetail: '+91 99*** ***59',
+                            contactDetail: '+91 70*** ***79',
                             contactType: 'Official Phone',
                             contactIcon: Icons.phone_outlined,
                             size: size,

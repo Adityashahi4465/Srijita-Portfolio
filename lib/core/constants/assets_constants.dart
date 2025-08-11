@@ -1,26 +1,25 @@
 const generalPath = "assets/images";
-const meImagePath = '$generalPath/me.jpg';
+const meImagePath = '$generalPath/me1.jpg';
 // const meImagePath = '$generalPath/me1.png';
-const logoImagePath = '$generalPath/AS_logo.png';
+const logoImagePath = '$generalPath/logo1.png';
 const bgImagePath = '$generalPath/bg.png';
 
 // Social Media Images
 const linkedInImagePath = '$generalPath/linkedin.png';
 const githubImagePath = '$generalPath/github.png';
-const leetcodeImagePath = '$generalPath/leetcode.png';
+const twitterImagePath = '$generalPath/twitter.png';
 const instagramImagePath = '$generalPath/instagram.png';
 const facebookImagePath = '$generalPath/facebook.png';
 const youtubeImagePath = '$generalPath/youtube.png';
 
 // Services Images
-const serviceShapeOnePath = '$generalPath/shape.png';
-const serviceShapeTwoPath = '$generalPath/shape-2.png';
-const serviceShapeThreePath = '$generalPath/shape-3.png';
-const serviceShapeFourPath = '$generalPath/shape-4.png';
-const webDesignServiceImageOPath = '$generalPath/web-design.png';
-const backendServiceImageOPath = '$generalPath/backend.png';
-const mobileServiceImageOPath = '$generalPath/mobile-development.png';
-const crossPlatformServiceImageOPath = '$generalPath/cross-platform.png';
+
+const criminalDefenseImageOPath = '$generalPath/gavel.png';
+const bailAnticipatoryImageOPath = '$generalPath/unlocking.png';
+const highCourtServiceImageOPath = '$generalPath/court.png';
+const trialCourtServiceImageOPath = '$generalPath/law.png';
+const evidenceCaseReviewServiceImageOPath = '$generalPath/search.png';
+const legalConsultationServiceImageOPath = '$generalPath/accountant.png';
 
 // Projects Images
 const asCentralDeskImagePath = '$generalPath/as_central_desk.png';

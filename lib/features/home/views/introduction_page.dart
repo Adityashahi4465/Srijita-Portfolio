@@ -41,17 +41,19 @@ class IntroductionPage extends StatelessWidget {
                     softWrap: true,
                     overflow: TextOverflow.visible,
                     TextSpan(
-                      text: "I'm ",
+                      text: "Srijita ",
                       style: TextStyle(
                         fontSize: ResponsiveLayout.isSmallScreen(context)
                             ? 26
                             : ResponsiveLayout.isMediumScreen(context)
                                 ? 36
                                 : 44,
+                        fontWeight: FontWeight.bold,
+                        color: AppColors.red,
                       ),
                       children: [
                         TextSpan(
-                          text: "Aditya ",
+                          text: "Das Roy ",
                           style: TextStyle(
                             fontSize: ResponsiveLayout.isSmallScreen(context)
                                 ? 26
@@ -59,18 +61,7 @@ class IntroductionPage extends StatelessWidget {
                                     ? 36
                                     : 44,
                             fontWeight: FontWeight.bold,
-                            color: AppColors.red,
-                          ),
-                        ),
-                        TextSpan(
-                          text: "Shahi",
-                          style: TextStyle(
-                            fontSize: ResponsiveLayout.isSmallScreen(context)
-                                ? 26
-                                : ResponsiveLayout.isMediumScreen(context)
-                                    ? 36
-                                    : 44,
-                            fontWeight: FontWeight.bold,
+                            color: AppColors.white,
                           ),
                         ),
                       ],
@@ -84,19 +75,20 @@ class IntroductionPage extends StatelessWidget {
                           ? size.width * 0.6
                           : size.width * 0.4,
                   child: Padding(
-                    padding: const EdgeInsets.only(top: 20),
+                    padding: const EdgeInsets.only(top: 16),
                     child: AutoSizeText(
-                      "Software Development Engineer",
+                      "Criminal Defense Lawyer",
                       softWrap: true,
                       style: TextStyle(
+                        color: AppColors.greyLight,
                         fontWeight: FontWeight.w100,
                         fontSize: ResponsiveLayout.isSmallScreen(context)
-                            ? 18
+                            ? 16
                             : ResponsiveLayout.isMediumScreen(context)
-                                ? 32
-                                : 38,
+                                ? 30
+                                : 36,
                       ),
-                      maxFontSize: 38,
+                      maxFontSize: 68,
                       minFontSize: 16,
                     ),
                   ),

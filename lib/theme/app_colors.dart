@@ -34,6 +34,11 @@ class AppColors {
       "#272727",
     ),
   );
+  static Color lightBrightBrownColorCardColor = Color(
+    getColorHexFromStr(
+      "#636363",
+    ),
+  );
   static Color lightBrownBorderColorCardColor = Color(
     getColorHexFromStr(
       "#2F2F2F",

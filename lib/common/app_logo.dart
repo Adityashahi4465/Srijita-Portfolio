@@ -1,4 +1,4 @@
-import 'package:aditya_portfolio/core/utils/responsive.dart';
+import '../core/utils/responsive.dart';
 import 'package:flutter/material.dart';
 
 import '../core/constants/assets_constants.dart';
@@ -13,20 +13,21 @@ class AppLogo extends StatelessWidget {
     return Row(
       mainAxisSize: MainAxisSize.min,
       mainAxisAlignment: MainAxisAlignment.center,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        CircleAvatar(
-          radius: ResponsiveLayout.isSmallScreen(context) ? 20 : 34,
-          backgroundImage: const AssetImage(
+        SizedBox(
+          height: ResponsiveLayout.isSmallScreen(context) ? 42 : 72,
+          child: Image.asset(
             logoImagePath,
           ),
         ),
         const SizedBox(
-          width: 16,
+          width: 8,
         ),
         Text(
-          "AdyAid",
+          "Attorneys",
           style: TextStyle(
-            fontSize: ResponsiveLayout.isSmallScreen(context) ? 20 : 36,
+            fontSize: ResponsiveLayout.isSmallScreen(context) ? 20 : 32,
           ),
         )
       ],

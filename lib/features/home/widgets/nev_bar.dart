@@ -1,5 +1,5 @@
-import 'package:aditya_portfolio/core/constants/assets_constants.dart';
-import 'package:aditya_portfolio/theme/app_colors.dart';
+import '../../../core/constants/assets_constants.dart';
+import '../../../theme/app_colors.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import '../../../common/app_logo.dart';
@@ -72,7 +72,7 @@ class NavBar extends StatelessWidget {
                     child: AutoSizeText(
                       minFontSize: 20,
                       maxLines: 1,
-                      "+91 99*** ***59",
+                      "+91 70*** ***79",
                       style: GoogleFonts.geologica(
                         textStyle: const TextStyle(
                           color: Colors.white,
@@ -101,7 +101,7 @@ class NavBar extends StatelessWidget {
                     child: AutoSizeText(
                       minFontSize: 20,
                       maxLines: 1,
-                      "+91 99*** ***59",
+                      "+91 70*** ***79",
                       style: GoogleFonts.geologica(
                         textStyle: const TextStyle(
                           color: Colors.white,

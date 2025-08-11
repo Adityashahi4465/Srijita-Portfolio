@@ -1,4 +1,4 @@
-import 'package:aditya_portfolio/core/utils/responsive.dart';
+import '../../../core/utils/responsive.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 
@@ -23,7 +23,7 @@ class ServicesPage extends StatelessWidget {
             height: 50,
           ),
           const SectionHeading(
-            title: 'Services',
+            title: 'This is what I do.',
           ),
           const SizedBox(height: 16),
           ResponsiveLayout.isLargeScreen(context)
@@ -31,21 +31,28 @@ class ServicesPage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     ServiceItem(
-                      title: 'Web Design & Development',
+                      title: 'Criminal Defense',
                       description:
-                          'Crafting standout websites with compelling design and seamless functionality for a strong online presence.',
-                      serviceNumberShape: serviceShapeOnePath,
-                      serviceImage: webDesignServiceImageOPath,
+                          'Protecting your rights in all criminal matters, from minor offenses to serious charges.',
+                      serviceImage: criminalDefenseImageOPath,
                     ),
                     SizedBox(
-                      width: 16,
+                      width: 12,
                     ),
                     ServiceItem(
-                      title: 'Mobile App Development',
+                      title: 'Bail & Anticipatory Bail',
                       description:
-                          "Transforming ideas into user-friendly mobile apps with Flutter for an engaging experience.",
-                      serviceNumberShape: serviceShapeTwoPath,
-                      serviceImage: mobileServiceImageOPath,
+                          "Expert assistance to secure your release and safeguard your freedom quickly.",
+                      serviceImage: bailAnticipatoryImageOPath,
+                    ),
+                    SizedBox(
+                      width: 12,
+                    ),
+                    ServiceItem(
+                      title: 'High Court Representation',
+                      description:
+                          "Skilled advocacy and strategic arguments before the High Court and other appellate courts.",
+                      serviceImage: highCourtServiceImageOPath,
                     ),
                   ],
                 )
@@ -53,18 +60,22 @@ class ServicesPage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     ServiceItem(
-                      title: 'Web Design & Development',
+                      title: 'Criminal Defense',
                       description:
-                          'Crafting standout websites with compelling design and seamless functionality for a strong online presence.',
-                      serviceNumberShape: serviceShapeOnePath,
-                      serviceImage: webDesignServiceImageOPath,
+                          'Protecting your rights in all criminal matters, from minor offenses to serious charges.',
+                      serviceImage: criminalDefenseImageOPath,
                     ),
                     ServiceItem(
-                      title: 'Mobile App Development',
+                      title: 'Bail & Anticipatory Bail',
                       description:
-                          "Transforming ideas into user-friendly mobile apps with Flutter for an engaging experience.",
-                      serviceNumberShape: serviceShapeTwoPath,
-                      serviceImage: mobileServiceImageOPath,
+                          "Expert assistance to secure your release and safeguard your freedom quickly.",
+                      serviceImage: bailAnticipatoryImageOPath,
+                    ),
+                    ServiceItem(
+                      title: 'High Court Representation',
+                      description:
+                          "Skilled advocacy and strategic arguments before the High Court and other appellate courts.",
+                      serviceImage: highCourtServiceImageOPath,
                     ),
                   ],
                 ),
@@ -74,39 +85,50 @@ class ServicesPage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     ServiceItem(
-                      title: 'Backend Development',
+                      title: 'Trial Court Advocacy',
                       description:
-                          'Building robust server-side solutions to power your apps with efficiency and scalability.',
-                      serviceNumberShape: serviceShapeThreePath,
-                      serviceImage: backendServiceImageOPath,
+                          'Effective defense and case handling at every stage of trial proceedings.',
+                      serviceImage: trialCourtServiceImageOPath,
                     ),
                     SizedBox(
-                      width: 16,
+                      width: 12,
                     ),
                     ServiceItem(
-                      title: 'Cross Platform Development',
+                      title: 'Evidence & Case Review',
                       description:
-                          'Developing apps that work across devices with one codebase for broader accessibility.',
-                      serviceNumberShape: serviceShapeFourPath,
-                      serviceImage: crossPlatformServiceImageOPath,
+                          "Thorough examination of evidence to build the strongest possible defense.",
+                      serviceImage: evidenceCaseReviewServiceImageOPath,
+                    ),
+                    SizedBox(
+                      width: 12,
+                    ),
+                    ServiceItem(
+                      title: 'Legal Consultation',
+                      description:
+                          "Clear, honest, and practical advice to guide you through legal challenges.",
+                      serviceImage: legalConsultationServiceImageOPath,
                     ),
                   ],
                 )
               : const Column(
                   children: [
                     ServiceItem(
-                      title: 'Backend Development',
+                      title: 'Trial Court Advocacy',
                       description:
-                          'Building robust server-side solutions to power your apps with efficiency and scalability.',
-                      serviceNumberShape: serviceShapeThreePath,
-                      serviceImage: backendServiceImageOPath,
+                          "Effective defense and case handling at every stage of trial proceedings.",
+                      serviceImage: trialCourtServiceImageOPath,
                     ),
                     ServiceItem(
-                      title: 'Cross Platform Development',
+                      title: 'Evidence & Case Review',
                       description:
-                          'Developing apps that work across devices with one codebase for broader accessibility.',
-                      serviceNumberShape: serviceShapeFourPath,
-                      serviceImage: crossPlatformServiceImageOPath,
+                          'Thorough examination of evidence to build the strongest possible defense.',
+                      serviceImage: evidenceCaseReviewServiceImageOPath,
+                    ),
+                    ServiceItem(
+                      title: 'Legal Consultation',
+                      description:
+                          'Clear, honest, and practical advice to guide you through legal challenges.',
+                      serviceImage: legalConsultationServiceImageOPath,
                     ),
                   ],
                 ),

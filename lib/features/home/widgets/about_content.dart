@@ -1,4 +1,4 @@
-import 'package:aditya_portfolio/core/utils/responsive.dart';
+import '../../../core/utils/responsive.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 
@@ -55,7 +55,7 @@ class AboutContent extends StatelessWidget {
                         height: size.width * 0.11,
                       ),
                       const AutoSizeText(
-                        "I Create Products\nNot Just Art",
+                        "I Deliver Justice,\nNot Just Arguments",
                         style: TextStyle(
                           fontSize: 52,
                           fontWeight: FontWeight.bold,
@@ -68,7 +68,7 @@ class AboutContent extends StatelessWidget {
                         height: 32,
                       ),
                       const AutoSizeText(
-                        "Hello, I'm Aditya Shahi, a passionate freelance software developer specializing in Flutter, Dart, and Nodejs. With hands-on experience in crafting efficient solutions using frameworks like Flutter, Node js, Firebase, and MySQL, I bring creativity and precision to every project. Whether you need a mobile app or a robust backend, I'm here to turn your ideas into reality. Let's build something amazing together!",
+                        "Hello, I'm Srijita Roy Das, an experienced criminal lawyer based in West Bengal with over 6 years of dedicated practice. Specializing in criminal defense, I have successfully represented clients in complex and high-stakes cases, ensuring their rights are protected at every stage. My commitment lies in delivering justice, not just arguments, with a focus on integrity, strategy, and client trust. Whether you’re facing legal challenges or seeking expert guidance, I’m here to stand by your side and fight for your cause.",
                         style: TextStyle(
                           fontWeight: FontWeight.w100,
                           color: AppColors.greyLight,
@@ -85,13 +85,14 @@ class AboutContent extends StatelessWidget {
                         height: 16,
                       ),
                       const BulletPoints(
-                        text: "Elite Solutions, Competitive Pricing",
+                        text: "Strong Legal Representation, Proven Results",
                       ),
                       const BulletPoints(
-                        text: "Distinctive Design, Top-tier Development",
+                        text: "Client-Centered Approach, Transparent Guidance",
                       ),
                       const BulletPoints(
-                        text: "Exceptional Quality, Affordable Rates",
+                        text:
+                            "Extensive Criminal Law Expertise, 6+ Years Experience",
                       ),
                     ],
                   ),

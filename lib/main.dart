@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Aditya Shahi',
+      title: 'Srijita Das Roy',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
         textTheme: GoogleFonts.openSansTextTheme().apply(
